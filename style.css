@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+   font-family: 'Noto Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px
+}
+.half-width{
+    width: 40%;
+    float: left;
+     margin-left: 5%;
+     padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.odi{
+ width: 7.4%;   
+}
+.t20{
+    width: 15%;
+}
+.test{
+    width: 14.5%;
+}
