@@ -3,7 +3,7 @@ body{
    font-family: 'Noto Sans', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 h2{
     font-size: 40px;
@@ -14,6 +14,9 @@ p{
 }
 .orange-highlight{
     color: orange;
+}
+.img{
+    width: 100%;
 }
 .link-button{
     text-decoration: none;
@@ -36,12 +39,81 @@ section{
     height: 500px;
     padding-bottom: 100px;
 }
-.odi{
- width: 7.4%;   
+.achievement-col{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px 20px;
+    height: 50%;
+    background-color: white; 
+    font-size: 20px;
 }
-.t20{
-    width: 15%;
+#odi{
+    float: left;
+    border-radius: 5px;
+    margin-left: 10%;
 }
-.test{
-    width: 14.5%;
+#t20{
+    float: left;
+   border-radius: 5px;
+   margin-left: 10%;
+}
+#test{
+  float: left;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+.work-area{
+    background-image: url(images/work.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 1000px;
+    height: 111px;
+    left: 200px;
+    top: 1700px;
+    border-radius: 30px;
+}
+.work{
+    position: absolute;
+    width: 277px;
+    height: 64px;
+    left: 115px;
+    top: 50px;
+    font-size: 44px;
+    color: white;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,tomato);
+    border-radius: 5px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    left: 800px;
+    top: 101px;
+    font-size: 30px;
+    padding: 7px 8px;
+}
+.stay{
+    font-size: 40px;
+    position: absolute;
+    left: 650px;
+    top: 1900px;
+    font-style: normal;
+    font-weight: 700px;
+    color: #696871;
+}
+.gmail{
+    position: absolute;
+    left: 570px;
+    top: 2000px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #363958;
+}
+.icon{
+    position: absolute;
+    left: 585px;
+    top: 2125px;
 }
