@@ -66,20 +66,11 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    width: 1000px;
-    height: 111px;
+    width: 900px;
+    height: 80px;
     left: 200px;
     top: 1700px;
     border-radius: 30px;
-}
-.work{
-    position: absolute;
-    width: 277px;
-    height: 64px;
-    left: 115px;
-    top: 50px;
-    font-size: 44px;
-    color: white;
 }
 .button{
     text-decoration: none;
@@ -89,16 +80,25 @@ section{
     height: 40px;
     color: white;
     position: absolute;
-    left: 800px;
-    top: 101px;
+    left: 700px;
+    top: 73px;
     font-size: 30px;
     padding: 7px 8px;
+}
+.work{
+    position: absolute;
+    width: 277px;
+    height: 64px;
+    left: 200px;
+    top: 30px;
+    font-size: 44px;
+    color: white;
 }
 .stay{
     font-size: 40px;
     position: absolute;
     left: 650px;
-    top: 1900px;
+    top: 2000px;
     font-style: normal;
     font-weight: 700px;
     color: #696871;
@@ -106,7 +106,7 @@ section{
 .gmail{
     position: absolute;
     left: 570px;
-    top: 2000px;
+    top: 2100px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -115,5 +115,5 @@ section{
 .icon{
     position: absolute;
     left: 585px;
-    top: 2125px;
+    top: 2225px;
 }
